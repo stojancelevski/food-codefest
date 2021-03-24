@@ -57,6 +57,11 @@ export class MapsPage {
           title: 'Codefest Market 3',
           map: this.map
         });
+        let marker4 = new google.maps.Marker({
+            position:  new google.maps.LatLng('41.1739','20.6753'),
+            title: 'Codefest Market 4',
+            map: this.map
+        });
       });
       
   }

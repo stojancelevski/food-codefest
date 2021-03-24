@@ -45,7 +45,7 @@ export class SearchPage {
         this.data = data;
         let jsonRecipes= this.data.recipes;
         this.recipes = jsonRecipes;
-        console.log(this.recipes);
+        console.table(this.recipes); 
         loader.dismiss();
       }
     ).catch(err => {
